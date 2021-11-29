@@ -21,7 +21,7 @@ I found the following website to be helpful regarding pickling:
 
 [Real Python Pickle Module](https://realpython.com/python-pickle-module/)
 
-I felt that the above site had a good explanation of the serialization process. It also provided a description of the different modules for serialization in Python. 
+•	I felt that the above site had a good explanation of the serialization process. It also provided a description of the different modules for serialization in Python. 
 ### Planning my “Password Creation ” Script 
 In planning my password creation script, I tried to utilize mostly functions in my code as many of the tasks were repetitive. Additionally, I created two custom exceptions to check the validity of the password entered and whether the passwords match when creating a new password. It was necessary to import pickle as I would be saving the passwords in a binary format (Figure 1).
 ``` 
