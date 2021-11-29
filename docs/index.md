@@ -59,10 +59,15 @@ _Figure 1: Script Heading, Declare Classes and Variable_
 
 ### Main Body of Password Script
 The following are some of the main features of my script (See Figure 2):
+
 •	Function enforce_password_validity checks for each requirement or rule for password generation. If any of the criteria are not meant, the custom exception PasswordDoesNotMeetCriteria is raised.
-•	Function save_data_to_file saves the password in binary format to the file. I used write in order to write over the previous password with a new one. 
+
+•	Function save_data_to_file saves the password in binary format to the file. I used write in order to write over the previous password with the new one. 
+
 •	Function read_data_from_file loads the password back into memory.
+
 •	Function main is the function that will be called in the output section of the script. It uses a try-except block to catch FileNotFound error which indicates a new user. In this case, the function set password is called. It additionally offers the user a choice of menu options.
+
 •	Functions set_password, change_password and authenticate are utilized for menu options 2 and 3). The custom exceptions are raised when a user does not enter a password that meets the criterion or they do not replicate their initial password entry in the case of setting a new password or changing a password (PasswordMismatch).
 ```
 # Processing  --------------------------------------------------------------- #
