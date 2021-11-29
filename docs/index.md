@@ -8,13 +8,20 @@ In Module 7, we learned about exception handling and pickling, both through revi
 
 ### Research
 I found the following websites to be helpful regarding exception handling:
-Python Exceptions Handling (w3schools.in)
+
+[[Python Exceptions Handling](w3schools.in)] 
+
 Python Exception Handling Using try, except and finally statement (programiz.com)
+
 I found the above websites to be helpful regarding exception handling because:
+
 •	W3 Schools provided a good overview of exceptions in Python including types of statements, why and when they are used as well as examples of different exceptions.
+
 •	Programwhiz provided a good overview as well as videos describing built in exceptions, how to handle exceptions and user defined/custom exceptions.
+
 I found the following website to be helpful regarding pickling:
 The Python pickle Module: How to Persist Objects in Python – Real Python
+
 I felt that the above site had a good explanation of the serialization process. It also provided a description of the different modules for serialization in Python. 
 ### Planning my “Password Creation ” Script 
 In planning my password creation script, I tried to utilize mostly functions in my code as many of the tasks were repetitive. Additionally, I created two custom exceptions to check the validity of the password entered and whether the passwords match when creating a new password. It was necessary tom import pickle as I would be saving the passwords in a binary format (Figure 1).
@@ -48,7 +55,7 @@ class PasswordMismatch(Exception):
 strFileName = 'PassData.dat'
 ```
 
-Figure 1: Script Heading, Declare Classes and Variable
+_Figure 1: Script Heading, Declare Classes and Variable_
 
 
 ### Main Body of Password Script
@@ -192,13 +199,16 @@ def authenticate():
 main()
 ```
 
-Figure 2: Processing and Output code
+_Figure 2: Processing and Output code_
 ### Results of Script
+
 I ran the code in the command prompt and the results were as expected (Figure 3). 
+
+![These are the results](https://github.com/katepollock/IntroToProg-Python-Mod07/blob/main/docs/password_command_output.jpg)
 
  
 
-Figure 3: Output in Command Prompt
+_Figure 3: Output in Command Prompt_
 
 ### Summary
 I have written the Python program above by utilizing the new concepts learned in Module 7 of this course. These concepts include opening and writing data from and to a file in binary format (pickling) and using try-except error handling. I’m looking forward to learning about classes next week. 
