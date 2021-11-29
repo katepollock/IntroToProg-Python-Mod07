@@ -9,22 +9,21 @@ In Module 7, we learned about exception handling and pickling, both through revi
 ### Research
 I found the following websites to be helpful regarding exception handling:
 
-[[Python Exceptions Handling](w3schools.in)] 
+[W3 Schools Exception Handling](https://www.w3schools.in/python-tutorial/exception-handling/)
 
-Python Exception Handling Using try, except and finally statement (programiz.com)
-
-I found the above websites to be helpful regarding exception handling because:
+[Programiz Exception Handling](https://www.programiz.com/python-programming/exception-handling)
 
 •	W3 Schools provided a good overview of exceptions in Python including types of statements, why and when they are used as well as examples of different exceptions.
 
 •	Programwhiz provided a good overview as well as videos describing built in exceptions, how to handle exceptions and user defined/custom exceptions.
 
 I found the following website to be helpful regarding pickling:
-The Python pickle Module: How to Persist Objects in Python – Real Python
+
+[Real Python Pickle Module](https://realpython.com/python-pickle-module/)
 
 I felt that the above site had a good explanation of the serialization process. It also provided a description of the different modules for serialization in Python. 
 ### Planning my “Password Creation ” Script 
-In planning my password creation script, I tried to utilize mostly functions in my code as many of the tasks were repetitive. Additionally, I created two custom exceptions to check the validity of the password entered and whether the passwords match when creating a new password. It was necessary tom import pickle as I would be saving the passwords in a binary format (Figure 1).
+In planning my password creation script, I tried to utilize mostly functions in my code as many of the tasks were repetitive. Additionally, I created two custom exceptions to check the validity of the password entered and whether the passwords match when creating a new password. It was necessary to import pickle as I would be saving the passwords in a binary format (Figure 1).
 ``` 
 # ---------------------------------------------------------------------------- #
 # Title: Assignment 07 - Password Generator
