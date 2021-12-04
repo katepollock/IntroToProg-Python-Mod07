@@ -208,7 +208,7 @@ _Figure 2: Processing and Output code_
 
 I ran the code in the command prompt and the results were as expected (Figure 3). 
 
-![These are the results](https://github.com/katepollock/IntroToProg-Python-Mod07/blob/main/docs/password_command_output.jpg)
+![These are the results](password_command_output.jpg)
 
  
 
